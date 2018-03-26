@@ -9,3 +9,4 @@
 
 rootProject.name = 'spring-serials'
 include 'Hello'
+include 'mvc'
