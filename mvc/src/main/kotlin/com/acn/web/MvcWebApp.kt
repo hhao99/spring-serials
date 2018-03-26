@@ -1,4 +1,4 @@
-package com.acn.mvc
+package com.acn.web
 
 import org.slf4j.LoggerFactory
 import org.springframework.boot.CommandLineRunner
@@ -23,7 +23,7 @@ fun main(args: Array<String>) {
 }
 
 @Controller
-class Home{
+class HomeController{
     @RequestMapping("/")
     fun index() = "index"
 }
